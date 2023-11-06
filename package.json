@@ -1,0 +1,13 @@
+{
+  "name": "runtime_publishing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "style.js",
+  "scripts": {
+    "build:css": "postcss css/commons.css -o dist/commons.min.css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "style.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
