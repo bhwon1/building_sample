@@ -1,4 +1,161 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link href="../css/commons.css" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shCore.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shThemeDefault.min.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shCore.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushXml.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushJScript.min.js"></script><script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><script src="../js//jquery-ui.js"></script><title>guide.html</title><script defer="defer" src="index.js"></script></head><body><script>SyntaxHighlighter.all();</script><style>p.ot, div.ot, span.ot  {border: 1px solid #333; }</style><div class="" style="position:relative;"><div class="" style="position: fixed; top: 10px; right: 10px; z-index: 1;"><button class="btn-p white pr10 pl10 all-epd">All Expand</button> <button class="btn-p white pr10 pl10 ml10 all-colabds">All Collapse</button></div><div class="gp_left"><ul><li><a>레이아웃</a><ul><li><a href="#gap1">스페이서</a></li><li><a href="#flex">flex</a></li><li><a href="#input-cal">인풋 켈린더</a></li><li><a href="#checkbox-r">a태그 버튼</a></li><li><a href="#checkbox2">선택 버튼</a></li><li><a href="#gradation">그라데이션 컬러</a></li><li><a href="#gradation-box">그라데이션 박스</a></li><li><a href="#miri-search-form">MIRI 써치폼</a></li><li><a href="#aaa">부서 지역 팀</a></li><li><a href="#pagination">페이지 네이션</a></li><li><a href="#agree-box">동의 박스</a></li></ul></li><li><a>텍스트</a><ul><li><a href="#fontSize">텍스트 사이즈</a></li><li><a href="#fontColor">텍스트 컬러</a></li><li><a href="#fontBold">텍스트 굵기</a></li><li><a href="#textAlign">텍스트 정렬</a></li><li><a href="#textarea">텍스트 area</a></li><li><a href="#ellip">텍스트 말줄임</a></li><li><a href="#bgColor">배경 컬러</a></li><li><a href="#prClrVrd">프라이머리 컬러 베리데이션</a></li></ul></li><li><a>엘리먼트</a><ul><li><a href="#pRadioChkBtn">체크박스 & 라디오 버튼</a></li><li><a href="#rangeBtn">렌지버튼</a></li><li><a href="#btnAll">button</a></li><li><a href="#selectBox">셀렉트 박스</a></li><li><a href="#inputBox">인풋박스</a></li><li><a href="#inputBoxCal">인풋박스 캘린더</a></li></ul></li><li><a>사이징</a><ul><li><a href="#width">너비</a></li><li><a href="">높이</a></li></ul></li></ul></div><div class="gp_right"><div id="pRadioChkBtn" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>체크박스 & 라디오 버튼</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>디폴트는 가로나열, 세로나열 적용시 db 클래스 추가</li><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div><p>체크박스 inline 타입1</p><label class="chkbx01"><input type="checkbox"><span>default</span></label> <label class="chkbx01"><input type="checkbox" checked=""><span>checked</span></label> <label class="chkbx01"><input type="checkbox" checked="" disabled=""><span>checked disabled</span></label> <label class="chkbx01"><input type="checkbox" disabled=""><span>disabled</span></label> <label class="chkbx01"><input type="checkbox"><span></span></label><p>체크박스 inline 타입2</p><label class="chkbx02"><input type="checkbox"><span>default</span></label> <label class="chkbx02"><input type="checkbox" checked=""><span>checked</span></label> <label class="chkbx02"><input type="checkbox" checked="" disabled=""><span>checked disabled</span></label> <label class="chkbx02"><input type="checkbox" disabled=""><span>disabled</span></label> <label class="chkbx02"><input type="checkbox"><span></span></label><p>라디오박스 inline 타입1</p><label for="radio01"><input type="radio" id="radio01" class="rds01"><span>default</span></label> <label for="radio02"><input type="radio" id="radio02" class="rds01" checked=""><span>checked</span></label> <label for="radio03"><input type="radio" id="radio03" class="rds01" checked="" disabled=""><span>checked disabled</span></label> <label for="radio04"><input type="radio" id="radio04" class="rds01" disabled=""><span>disabled</span></label> <label for="radio05"><input type="radio" id="radio05" class="rds01"><span></span></label><p>라디오박스 inline 타입2</p><label for="radio06"><input type="radio" id="radio06" class="rds02"><span>default</span></label> <label for="radio07"><input type="radio" id="radio07" class="rds02" checked=""><span>checked</span></label> <label for="radio08"><input type="radio" id="radio08" class="rds02" checked="" disabled=""><span>checked disabled</span></label> <label for="radio09"><input type="radio" id="radio09" class="rds02" disabled=""><span>disabled</span></label> <label for="radio10"><input type="radio" id="radio10" class="rds02"><span></span></label><p>체크박스 db 타입1</p><label class="chkbx01 db"><input type="checkbox"><span>default</span></label> <label class="chkbx01 db"><input type="checkbox" checked=""><span>checked</span></label> <label class="chkbx01 db"><input type="checkbox" checked="" disabled=""><span>checked disabled</span></label> <label class="chkbx01 db"><input type="checkbox" disabled=""><span>disabled</span></label> <label class="chkbx01 db"><input type="checkbox"><span></span></label><p>체크박스 db 타입2</p><label class="chkbx02 db"><input type="checkbox"><span>default</span></label> <label class="chkbx02 db"><input type="checkbox" checked=""><span>checked</span></label> <label class="chkbx02 db"><input type="checkbox" checked="" disabled=""><span>checked disabled</span></label> <label class="chkbx02 db"><input type="checkbox" disabled=""><span>disabled</span></label> <label class="chkbx02 db"><input type="checkbox"><span></span></label><p>라디오박스 db 타입1</p><label for="radio01" class="db"><input type="radio" id="radio01" class="rds01"><span>default</span></label> <label for="radio02" class="db"><input type="radio" id="radio02" class="rds01" checked=""><span>checked</span></label> <label for="radio03" class="db"><input type="radio" id="radio03" class="rds01" checked="" disabled=""><span>checked disabled</span></label> <label for="radio04" class="db"><input type="radio" id="radio04" class="rds01" disabled=""><span>disabled</span></label> <label for="radio05" class="db"><input type="radio" id="radio05" class="rds01"><span></span></label><p>라디오박스 db 타입2</p><label for="radio06" class="db"><input type="radio" id="radio06" class="rds02"><span>default</span></label> <label for="radio07" class="db"><input type="radio" id="radio07" class="rds02" checked=""><span>checked</span></label> <label for="radio08" class="db"><input type="radio" id="radio08" class="rds02" checked="" disabled=""><span>checked disabled</span></label> <label for="radio09" class="db"><input type="radio" id="radio09" class="rds02" disabled=""><span>disabled</span></label> <label for="radio10" class="db"><input type="radio" id="radio10" class="rds02"><span></span></label></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link href="./css/commons.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shCore.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shThemeDefault.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shCore.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushXml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushJScript.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="./js//jquery-ui.js"></script>
+        <title>guide.html</title>
+        <script defer="defer" src="index.js"></script>
+    </head>
+    <body>
+        <script>
+            SyntaxHighlighter.all();
+        </script>
+        <style>
+            p.ot,
+            div.ot,
+            span.ot {
+                border: 1px solid #333;
+            }
+        </style>
+        <div class="" style="position: relative">
+            <div class="" style="position: fixed; top: 10px; right: 10px; z-index: 1">
+                <button class="btn-p white pr10 pl10 all-epd">All Expand</button>
+                <button class="btn-p white pr10 pl10 ml10 all-colabds">All Collapse</button>
+            </div>
+            <div class="gp_left">
+                <ul>
+                    <li>
+                        <a>레이아웃</a>
+                        <ul>
+                            <li><a href="#gap1"> 스페이서</a></li>
+                            <li><a href="#flex">flex</a></li>
+                            <li><a href="#input-cal">인풋 켈린더</a></li>
+                            <li><a href="#checkbox-r">a태그 버튼</a></li>
+                            <li><a href="#checkbox2">선택 버튼</a></li>
+                            <li><a href="#gradation">그라데이션 컬러</a></li>
+                            <li>
+                                <a href="#gradation-box">그라데이션 박스</a>
+                            </li>
+                            <li><a href="#miri-search-form">MIRI 써치폼</a></li>
+                            <li><a href="#aaa">부서 지역 팀</a></li>
+                            <li><a href="#pagination">페이지 네이션</a></li>
+                            <li><a href="#agree-box">동의 박스</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>텍스트</a>
+                        <ul>
+                            <li><a href="#fontSize">텍스트 사이즈</a></li>
+                            <li><a href="#fontColor">텍스트 컬러</a></li>
+                            <li><a href="#fontBold">텍스트 굵기</a></li>
+                            <li><a href="#textAlign">텍스트 정렬</a></li>
+                            <li><a href="#textarea">텍스트 area</a></li>
+                            <li><a href="#ellip">텍스트 말줄임</a></li>
+                            <li><a href="#bgColor">배경 컬러</a></li>
+                            <li>
+                                <a href="#prClrVrd">프라이머리 컬러 베리데이션</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>엘리먼트</a>
+                        <ul>
+                            <li>
+                                <a href="#pRadioChkBtn">체크박스 & 라디오 버튼</a>
+                            </li>
+                            <li><a href="#rangeBtn">렌지버튼</a></li>
+                            <li><a href="#btnAll">button</a></li>
+                            <li><a href="#selectBox">셀렉트 박스</a></li>
+                            <li><a href="#inputBox">인풋박스</a></li>
+                            <li><a href="#inputBoxCal">인풋박스 캘린더</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>사이징</a>
+                        <ul>
+                            <li><a href="#widthGuide">너비</a></li>
+                            <li><a href="#heightGuide">높이</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a>간격</a>
+                        <ul>
+                            <li><a href="#spaceBetween">사이공간</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="gp_right">
+                <div id="pRadioChkBtn" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>체크박스 & 라디오 버튼</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>디폴트는 가로나열, 세로나열 적용시 db 클래스 추가</li>
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <p>체크박스 inline 타입1</p>
+                            <label class="chkbx01"><input type="checkbox" /><span>default</span></label>
+                            <label class="chkbx01"><input type="checkbox" checked="" /><span>checked</span></label>
+                            <label class="chkbx01"><input type="checkbox" checked="" disabled="" /><span>checked disabled</span></label>
+                            <label class="chkbx01"><input type="checkbox" disabled="" /><span>disabled</span></label>
+                            <label class="chkbx01"><input type="checkbox" /><span></span></label>
+                            <p>체크박스 inline 타입2</p>
+                            <label class="chkbx02"><input type="checkbox" /><span>default</span></label>
+                            <label class="chkbx02"><input type="checkbox" checked="" /><span>checked</span></label>
+                            <label class="chkbx02"><input type="checkbox" checked="" disabled="" /><span>checked disabled</span></label>
+                            <label class="chkbx02"><input type="checkbox" disabled="" /><span>disabled</span></label>
+                            <label class="chkbx02"><input type="checkbox" /><span></span></label>
+                            <p>라디오박스 inline 타입1</p>
+                            <label for="radio01"><input type="radio" id="radio01" class="rds01" /><span>default</span></label>
+                            <label for="radio02"><input type="radio" id="radio02" class="rds01" checked="" /><span>checked</span></label>
+                            <label for="radio03"><input type="radio" id="radio03" class="rds01" checked="" disabled="" /><span>checked disabled</span></label>
+                            <label for="radio04"><input type="radio" id="radio04" class="rds01" disabled="" /><span>disabled</span></label>
+                            <label for="radio05"><input type="radio" id="radio05" class="rds01" /><span></span></label>
+                            <p>라디오박스 inline 타입2</p>
+                            <label for="radio06"><input type="radio" id="radio06" class="rds02" /><span>default</span></label>
+                            <label for="radio07"><input type="radio" id="radio07" class="rds02" checked="" /><span>checked</span></label>
+                            <label for="radio08"><input type="radio" id="radio08" class="rds02" checked="" disabled="" /><span>checked disabled</span></label>
+                            <label for="radio09"><input type="radio" id="radio09" class="rds02" disabled="" /><span>disabled</span></label>
+                            <label for="radio10"><input type="radio" id="radio10" class="rds02" /><span></span></label>
+                            <p>체크박스 db 타입1</p>
+                            <label class="chkbx01 db"><input type="checkbox" /><span>default</span></label>
+                            <label class="chkbx01 db"><input type="checkbox" checked="" /><span>checked</span></label>
+                            <label class="chkbx01 db"><input type="checkbox" checked="" disabled="" /><span>checked disabled</span></label>
+                            <label class="chkbx01 db"><input type="checkbox" disabled="" /><span>disabled</span></label>
+                            <label class="chkbx01 db"><input type="checkbox" /><span></span></label>
+                            <p>체크박스 db 타입2</p>
+                            <label class="chkbx02 db"><input type="checkbox" /><span>default</span></label>
+                            <label class="chkbx02 db"><input type="checkbox" checked="" /><span>checked</span></label>
+                            <label class="chkbx02 db"><input type="checkbox" checked="" disabled="" /><span>checked disabled</span></label>
+                            <label class="chkbx02 db"><input type="checkbox" disabled="" /><span>disabled</span></label>
+                            <label class="chkbx02 db"><input type="checkbox" /><span></span></label>
+                            <p>라디오박스 db 타입1</p>
+                            <label for="radio01" class="db"><input type="radio" id="radio01" class="rds01" /><span>default</span></label>
+                            <label for="radio02" class="db"><input type="radio" id="radio02" class="rds01" checked="" /><span>checked</span></label>
+                            <label for="radio03" class="db"><input type="radio" id="radio03" class="rds01" checked="" disabled="" /><span>checked disabled</span></label>
+                            <label for="radio04" class="db"><input type="radio" id="radio04" class="rds01" disabled="" /><span>disabled</span></label>
+                            <label for="radio05" class="db"><input type="radio" id="radio05" class="rds01" /><span></span></label>
+                            <p>라디오박스 db 타입2</p>
+                            <label for="radio06" class="db"><input type="radio" id="radio06" class="rds02" /><span>default</span></label>
+                            <label for="radio07" class="db"><input type="radio" id="radio07" class="rds02" checked="" /><span>checked</span></label>
+                            <label for="radio08" class="db"><input type="radio" id="radio08" class="rds02" checked="" disabled="" /><span>checked disabled</span></label>
+                            <label for="radio09" class="db"><input type="radio" id="radio09" class="rds02" disabled="" /><span>disabled</span></label>
+                            <label for="radio10" class="db"><input type="radio" id="radio10" class="rds02" /><span></span></label>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
 
                         <p>체크박스 inline 타입1</p>
                         <label class="chkbx01"><input type="checkbox"><span>default</span></label>
@@ -56,41 +213,147 @@
                         <label for="radio09" class="db"><input type="radio" id="radio09" class="rds02" disabled=""><span>disabled</span></label>
                         <label for="radio10" class="db"><input type="radio" id="radio10" class="rds02"><span></span></label>
 
-                    </pre></div></div><div id="rangeBtn" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>렌지버튼</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div><div class="range"><span>약한 대비</span> <input type="range" min="1" max="5" step="1" value="3" class="range-btn"> <span>강한 대비</span></div></div><span class="html">Html</span><pre name="code" class="brush:xml;">
-                        <div class="range">
-                            <span>약한 대비</span>
-                            <input type="range" min="1" max="5" step="1" value="3" class="range-btn">
-                            <span>강한 대비</span>
-                        </div>
-                    </pre></div></div><div id="btnAll" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>button</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div><button type="button" class="btn-sch"><span></span>주소</button> <button type="button" class="btn-prv"><span></span>이전 단계로 돌아가기</button> <button type="button" class="btn-nxt">다음으로 단계로 넘어가기<span></span></button> <button type="button" class="btn- r">btn-r</button> <button type="button" class="btn-p">btn-p</button> <button type="button" class="btn-bler">btn-bler</button> <button type="button" class="btn-bl">btn-bl</button> <button type="button" class="btn-b">btn-b</button> <button type="button" class="btn-bd">btn-bd</button> <button type="button" class="btn-bder">btn-bder</button> <button type="button" class="btn-gler">btn-gler</button> <button type="button" class="btn-gl">btn-gl</button> <button type="button" class="btn-g">btn-g</button> <button type="button" class="btn-gd">btn-gd</button> <button type="button" class="btn-gder">btn-gder</button></div><span class="html">Html</span><pre name="code" class="brush:xml;">
-                        <button type="button" class="btn-prv"><span></span>이전 단계로 돌아가기</button>
-                        <button type="button" class="btn-nxt">다음으로 넘어가기<span></span></button>
-                        <button type="button" class="btn-save">다음으로 넘어가기</button>
-                        <button type="button" class="btn-r">다음으로 넘어가기</button>
-                        <button type="button" class="btn-p">다음으로 넘어가기</button>
-                        <button type="button" class="btn-bler">다음으로 넘어가기</button>
-                        <button type="button" class="btn-bl">다음으로 넘어가기</button>
-                        <button type="button" class="btn-b">다음으로 넘어가기</button>
-                        <button type="button" class="btn-bd">다음으로 넘어가기</button>
-                        <button type="button" class="btn-bder">다음으로 넘어가기</button>
-                        <button type="button" class="btn-gler">다음으로 넘어가기</button>
-                        <button type="button" class="btn-gl">다음으로 넘어가기</button>
-                        <button type="button" class="btn-g">다음으로 넘어가기</button>
-                        <button type="button" class="btn-gd">다음으로 넘어가기</button>
-                        <button type="button" class="btn-gder">다음으로 넘어가기</button>
-                    </pre></div></div><div id="btnAll" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>button 리스트</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div><div class="tac"><div class="fl"><button class="btn-b">왼쪽</button></div><button class="btn-b">가운데</button><div class="fr"><button class="btn-b">오른쪽</button></div></div></div><span class="html">Html</span><pre name="code" class="brush:xml;">
-                        <div class="tac">
-                            <div class="fl">
-                                <a href="javascript:;" class="btn-b">왼쪽</a>
-                            </div>
-
-                            <a href="javascript:;" class="btn-b">가운데</a>
-
-                            <div class="fr">
-                                <a href="javascript:;" class="btn-b">오른쪽</a>
+                    </pre>
+                    </div>
+                </div>
+                <div id="rangeBtn" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>렌지버튼</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <div class="range">
+                                <span>약한 대비</span>
+                                <input type="range" min="1" max="5" step="1" value="3" class="range-btn" />
+                                <span>강한 대비</span>
                             </div>
                         </div>
-                    </pre></div></div><div id="selectBox" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>셀렉트 박스</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>셀렉트박스는 바깥에 span class="select" 으로 감싸고 사용한다.</li><li>셀렉트박스의 높이는 select 직접 지정해준다.</li></ul><span class="preview">Preview</span><p class="gap"></p><div><span class="select"><select class="h30"><option>디폴트 셀렉트박스</option><option>선택1</option><option>선택2</option><option>선택3</option></select> </span><span class="select"><select class="h30" disabled=""><option>disabled 셀렉트박스</option><option>선택1</option><option>선택2</option><option>선택3</option></select></span></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
+                <div class="range">
+                    <span>약한 대비</span>
+                    <input type="range" min="1" max="5" step="1" value="3" class="range-btn">
+                    <span>강한 대비</span>
+                </div>
+            </pre>
+                    </div>
+                </div>
+                <div id="btnAll" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>button</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <button type="button" class="btn-sch"><span></span>주소</button>
+                            <button type="button" class="btn-prv"><span></span>이전 단계로 돌아가기</button>
+                            <button type="button" class="btn-nxt">다음으로 단계로 넘어가기<span></span></button>
+                            <button type="button" class="btn- r">btn-r</button>
+                            <button type="button" class="btn-p">btn-p</button>
+                            <button type="button" class="btn-bler">btn-bler</button>
+                            <button type="button" class="btn-bl">btn-bl</button>
+                            <button type="button" class="btn-b">btn-b</button>
+                            <button type="button" class="btn-bd">btn-bd</button>
+                            <button type="button" class="btn-bder">btn-bder</button>
+                            <button type="button" class="btn-gler">btn-gler</button>
+                            <button type="button" class="btn-gl">btn-gl</button>
+                            <button type="button" class="btn-g">btn-g</button>
+                            <button type="button" class="btn-gd">btn-gd</button>
+                            <button type="button" class="btn-gder">btn-gder</button>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
+                            <button type="button" class="btn-prv"><span></span>이전 단계로 돌아가기</button>
+                            <button type="button" class="btn-nxt">다음으로 넘어가기<span></span></button>
+                            <button type="button" class="btn-save">다음으로 넘어가기</button>
+                            <button type="button" class="btn-r">다음으로 넘어가기</button>
+                            <button type="button" class="btn-p">다음으로 넘어가기</button>
+                            <button type="button" class="btn-bler">다음으로 넘어가기</button>
+                            <button type="button" class="btn-bl">다음으로 넘어가기</button>
+                            <button type="button" class="btn-b">다음으로 넘어가기</button>
+                            <button type="button" class="btn-bd">다음으로 넘어가기</button>
+                            <button type="button" class="btn-bder">다음으로 넘어가기</button>
+                            <button type="button" class="btn-gler">다음으로 넘어가기</button>
+                            <button type="button" class="btn-gl">다음으로 넘어가기</button>
+                            <button type="button" class="btn-g">다음으로 넘어가기</button>
+                            <button type="button" class="btn-gd">다음으로 넘어가기</button>
+                            <button type="button" class="btn-gder">다음으로 넘어가기</button>
+                        </pre>
+                    </div>
+                </div>
+                <div id="btnAll" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>button 리스트</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <div class="tac">
+                                <div class="fl">
+                                    <button class="btn-b">왼쪽</button>
+                                </div>
+                                <button class="btn-b">가운데</button>
+                                <div class="fr">
+                                    <button class="btn-b">오른쪽</button>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
+                <div class="tac">
+                    <div class="fl">
+                        <a href="javascript:;" class="btn-b">왼쪽</a>
+                    </div>
+
+                    <a href="javascript:;" class="btn-b">가운데</a>
+
+                    <div class="fr">
+                        <a href="javascript:;" class="btn-b">오른쪽</a>
+                    </div>
+                </div>
+            </pre>
+                    </div>
+                </div>
+                <div id="selectBox" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>셀렉트 박스</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>셀렉트박스는 바깥에 span class="select" 으로 감싸고 사용한다.</li>
+                            <li>셀렉트박스의 높이는 select 직접 지정해준다.</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <span class="select">
+                                <select class="h30">
+                                    <option>디폴트 셀렉트박스</option>
+                                    <option>선택1</option>
+                                    <option>선택2</option>
+                                    <option>선택3</option>
+                                </select>
+                            </span>
+                            <span class="select">
+                                <select class="h30" disabled="">
+                                    <option>disabled 셀렉트박스</option>
+                                    <option>선택1</option>
+                                    <option>선택2</option>
+                                    <option>선택3</option>
+                                </select></span
+                            >
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
                         <span class="select">
                             <select class="h30">
                                 <option>디폴트 셀렉트박스</option>
@@ -108,14 +371,56 @@
                                 <option>선택3</option>
                             </select>
                         </span>
-                    </pre></div></div><div id="inputBox" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>인풋박스</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>인풋박스는 바깥에 span class="input" 으로 감싸고 사용한다.</li></ul><span class="preview">Preview</span><p class="gap"></p><div><span class="input"><input placeholder="입력하세요"></span><span class="input"><input placeholder="READONLY" readonly=""></span><span class="input"><input placeholder="DISABLED" disabled=""></span><span class="input"><input class="align-right" placeholder="0"></span><span class="input del"><input placeholder="입력하세요"><span class="del"></span></span> <span class="input sch"><input placeholder="검색어 입력"><a href="javascript:;" class="btnSch"></a></span></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                    </pre>
+                    </div>
+                </div>
+                <div id="inputBox" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>인풋박스</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>인풋박스는 바깥에 span class="input" 으로 감싸고 사용한다.</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <span class="input"><input placeholder="입력하세요" /></span><span class="input"><input placeholder="READONLY" readonly="" /></span><span class="input"><input placeholder="DISABLED" disabled="" /></span
+                            ><span class="input"><input class="align-right" placeholder="0" /></span><span class="input del"><input placeholder="입력하세요" /><span class="del"></span></span>
+                            <span class="input sch"><input placeholder="검색어 입력" /><a href="javascript:;" class="btnSch"></a></span>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
                         <span class="input"><input placeholder="입력하세요"></span>
                         <span class="input"><input placeholder="READONLY" readonly=""></span>
                         <span class="input"><input placeholder="DISABLED" disabled=""></span>
                         <span class="input"><input class="align-right" placeholder="0"></span>
                         <span class="input del"><input placeholder="입력하세요"><span class="del"></span></span>
                         <span class="input sch"><input placeholder="검색어 입력"><a href="javascript:;" class="btnSch"></a></span>
-                    </pre></div></div><div id="inputBoxCal" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>인풋박스 캘린더</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>인풋박스는 바깥에 span class="input" 으로 감싸고 사용한다.</li><li></li></ul><span class="preview">Preview</span><p class="gap"></p><div>일 선택<br><span class="input ui-input-date"><input class="datepicker" placeholder="YYYY-MM-DD" value=""><span class="cal"></span></span> <span class="input ui-input-date"><input class="datepicker" placeholder="YYYY-MM-DD" value="2019-06-07"><span class="cal"></span></span><br><br>디데이 선택<br><span class="input ui-input-date"><input id="imsiStartDate" class="datepicker startDate" placeholder="YYYY-MM-DD" value=""><span class="cal"></span></span> <i class="p5">~</i> <span class="input ui-input-date"><input id="imsiEndDate" class="datepicker endDate" placeholder="YYYY-MM-DD" value=""><span class="cal"></span></span><br><br>월 선택<br><span class="input ui-input-date"><input class="datepicker_month" placeholder="YYYY-MM" value=""></span><span class="input ui-input-date"><input class="datepicker_month" placeholder="YYYY-MM" value="2019-06"></span></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                    </pre>
+                    </div>
+                </div>
+                <div id="inputBoxCal" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>인풋박스 캘린더</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>인풋박스는 바깥에 span class="input" 으로 감싸고 사용한다.</li>
+                            <li></li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            일 선택<br /><span class="input ui-input-date"><input class="datepicker" placeholder="YYYY-MM-DD" value="" /><span class="cal"></span></span>
+                            <span class="input ui-input-date"><input class="datepicker" placeholder="YYYY-MM-DD" value="2019-06-07" /><span class="cal"></span></span><br /><br />디데이 선택<br /><span class="input ui-input-date"
+                                ><input id="imsiStartDate" class="datepicker startDate" placeholder="YYYY-MM-DD" value="" /><span class="cal"></span
+                            ></span>
+                            <i class="p5">~</i>
+                            <span class="input ui-input-date"><input id="imsiEndDate" class="datepicker endDate" placeholder="YYYY-MM-DD" value="" /><span class="cal"></span></span><br /><br />월 선택<br /><span class="input ui-input-date"
+                                ><input class="datepicker_month" placeholder="YYYY-MM" value="" /></span
+                            ><span class="input ui-input-date"><input class="datepicker_month" placeholder="YYYY-MM" value="2019-06" /></span>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
                         <span class="input ui-input-date"><input class="datepicker" placeholder="YYYY-MM-DD" value=""><span class="cal"></span></span>
                         <span class="input ui-input-date"><input class="datepicker" placeholder="YYYY-MM-DD" value="2019-06-07"><span class="cal"></span></span>
                         
@@ -125,12 +430,74 @@
                       
                         <span class="input ui-input-date"><input class="datepicker_month" placeholder="YYYY-MM" value=""></span>
                         <span class="input ui-input-date"><input class="datepicker_month" placeholder="YYYY-MM" value="2019-06"></span>
-                    </pre></div></div><div id="gap1" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>스페이서</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>.gap 클래스가 p에 붙으면 컨텐츠와 컨텐츠 사이 위·아래 간격을 띄울때 사용. 디폴트 10px.</li><li>.h20 ~ h300 까지만 10단위 간격으로 사용</li><li>.gap 클래스가 span에 붙으면 컨텐츠와 컨텐츠 사이 좌·우 간격을 띄울때 사용. 디폴트 10px.</li><li>.w10 ~ w300 까지만 10단위 간격으로 사용</li></ul><span class="preview">Preview</span><p class="gap"></p><div>p.gap(디폴트)<br><p class="gap ot"></p>p.gap h50<br><p class="gap h50 ot"></p>span.gap(디폴트)<br><span class="gap ot"></span><br>span.gap w100<br><span class="gap w100 ot"></span></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                    </pre>
+                    </div>
+                </div>
+                <div id="gap1" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>스페이서</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>.gap 클래스가 p에 붙으면 컨텐츠와 컨텐츠 사이 위·아래 간격을 띄울때 사용. 디폴트 10px.</li>
+                            <li>.h20 ~ h300 까지만 10단위 간격으로 사용</li>
+                            <li>.gap 클래스가 span에 붙으면 컨텐츠와 컨텐츠 사이 좌·우 간격을 띄울때 사용. 디폴트 10px.</li>
+                            <li>.w10 ~ w300 까지만 10단위 간격으로 사용</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            p.gap(디폴트)<br />
+                            <p class="gap ot"></p>
+                            p.gap h50<br />
+                            <p class="gap h50 ot"></p>
+                            span.gap(디폴트)<br /><span class="gap ot"></span><br />span.gap w100<br /><span class="gap w100 ot"></span>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
                         <p class="gap"></p>
                         <p class="gap h50"></p>
                         <span class="gap"></span>
                         <span class="gap w100"></span>
-                    </pre></div></div><div id="flex" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>flex</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div>.flex-b<br><div class="df jcsb ot p5"><div class="ot p5">동일한 공간사이</div><div class="ot p5">동일한 공간사이</div><div class="ot p5">동일한 공간사이</div></div>.flex-s<br><div class="df jcfs ot p5"><div class="ot p5">왼쪽에 몰아서</div><div class="ot p5">왼쪽에 몰아서</div><div class="ot p5">왼쪽에 몰아서</div></div>.flex-c<br><div class="df jcc ot p5"><div class="ot p5">센터에 몰아서</div><div class="ot p5">센터에 몰아서</div><div class="ot p5">센터에 몰아서</div></div>.flex-e<br><div class="df jcfe ot p5"><div class="ot p5">우측에 몰아서</div><div class="ot p5">우측에 몰아서</div><div class="ot p5">우측에 몰아서</div></div></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                    </pre>
+                    </div>
+                </div>
+                <div id="flex" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>flex</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            .flex-b<br />
+                            <div class="df jcsb ot p5">
+                                <div class="ot p5">동일한 공간사이</div>
+                                <div class="ot p5">동일한 공간사이</div>
+                                <div class="ot p5">동일한 공간사이</div>
+                            </div>
+                            .flex-s<br />
+                            <div class="df jcfs ot p5">
+                                <div class="ot p5">왼쪽에 몰아서</div>
+                                <div class="ot p5">왼쪽에 몰아서</div>
+                                <div class="ot p5">왼쪽에 몰아서</div>
+                            </div>
+                            .flex-c<br />
+                            <div class="df jcc ot p5">
+                                <div class="ot p5">센터에 몰아서</div>
+                                <div class="ot p5">센터에 몰아서</div>
+                                <div class="ot p5">센터에 몰아서</div>
+                            </div>
+                            .flex-e<br />
+                            <div class="df jcfe ot p5">
+                                <div class="ot p5">우측에 몰아서</div>
+                                <div class="ot p5">우측에 몰아서</div>
+                                <div class="ot p5">우측에 몰아서</div>
+                            </div>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
                         <div class="df jcsb">
                             <div>동일한 공간사이</div>
                             <div>동일한 공간사이</div>
@@ -154,7 +521,36 @@
                             <div>우측에 몰아서</div>
                             <div>우측에 몰아서</div>
                         </div>
-                    </pre></div></div><div id="input-cal" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>인풋 켈린더</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div><span class="input-datepicker"><input placeholder="YYYY-MM-DD" value=""></span><br><br><div class="input-datepicker-box"><span class="datepicker-r"><input placeholder="YYYY-MM-DD" value=""></span></div><br><br><div class="datepicker-two"><div class="input-datepicker-box"><span class="datepicker-r"><input placeholder="YYYY-MM-DD" value=""></span></div><span>~</span><div class="input-datepicker-box"><span class="datepicker-r"><input placeholder="YYYY-MM-DD" value=""></span></div></div></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                    </pre>
+                    </div>
+                </div>
+                <div id="input-cal" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>인풋 켈린더</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <span class="input-datepicker"><input placeholder="YYYY-MM-DD" value="" /></span><br /><br />
+                            <div class="input-datepicker-box">
+                                <span class="datepicker-r"><input placeholder="YYYY-MM-DD" value="" /></span>
+                            </div>
+                            <br /><br />
+                            <div class="datepicker-two">
+                                <div class="input-datepicker-box">
+                                    <span class="datepicker-r"><input placeholder="YYYY-MM-DD" value="" /></span>
+                                </div>
+                                <span>~</span>
+                                <div class="input-datepicker-box">
+                                    <span class="datepicker-r"><input placeholder="YYYY-MM-DD" value="" /></span>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
                 <span class="input-datepicker">
                     <input placeholder="YYYY-MM-DD" value="">
                 </span>
@@ -172,31 +568,35 @@
                     <span class="datepicker-r"><input placeholder="YYYY-MM-DD" value=""></span>
                 </div>
                 </div>
-                </pre></div></div><div id="width" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>너비</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>요소를 고정 너비로 ​​설정하려면 w{number}또는 를 사용하세요 . 10px 단위 존재</li><li>요소를 고정 너비로 ​​설정하려면 w-{number}또는 를 사용하세요 . rem</li></ul><span class="preview">Preview</span><p class="gap"></p><div><div class="w800 btn-p">w800</div><br><br><div class="w600 btn-p">w600</div><br><br><div class="w400 btn-p">w400</div><br><br><div class="w-96 btn-p">w-96</div><br><br><div class="w-60 btn-p">w-60</div><br><br><div class="w-32 btn-p">w-32</div><br><br><div class="df"><div class="w-1/2 btn-p">w-1/2</div><div class="w-1/2 btn-p">w-1/2</div></div><br><div class="df"><div class="w-2/5 btn-p">w-2/5</div><div class="w-3/5 btn-p">w-3/5</div></div><br><div class="df"><div class="w-1/6 btn-p">w-1/6</div><div class="w-5/6 btn-p">w-5/6</div></div><br><div class="w-full btn-p">w-full</div></div><span class="html">Html</span><pre name="code" class="brush:xml;">
-                        <div class="w800 btn-p">w800</div><br><br>
-                        <div class="w600 btn-p">w600</div><br><br>
-                        <div class="w400 btn-p">w400</div><br><br>
-                        <div class="w-96 btn-p">w-96</div><br><br>
-                        <div class="w-60 btn-p">w-60</div><br><br>
-                        <div class="w-32 btn-p">w-32</div><br><br>
+                </pre>
+                    </div>
+                </div>
 
-                        <div class="df">
-                            <div class="w-1/2 btn-p">w-1/2</div>
-                            <div class="w-1/2 btn-p">w-1/2</div>
-                        </div>    
-
-                        <div class="df">
-                            <div class="w-2/5 btn-p">w-2/5</div>
-                            <div class="w-3/5 btn-p">w-3/5</div>
-                        </div>    
-
-                        <div class="df">
-                            <div class="w-1/6 btn-p">w-1/6</div>
-                            <div class="w-5/6 btn-p">w-5/6</div>
+                <div id="checkbox-r" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>a 태그버튼</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <a href="javascript:;" class="P-r">P컬러 버튼</a><br /><br /><a href="javascript:;" class="B-r">B컬러 버튼</a><br /><br /><a href="javascript:;" class="P-sch-r"><span></span>상품자세히 보기</a><br /><br /><a href="javascript:;" class="A-btn-r">Alert컬러 버튼</a
+                            ><br /><br /><a href="javascript:;" class="B-btn-r">Black컬러 버튼</a><br /><br /><a href="javascript:;" class="B-btn-r">a버튼 Black컬러 버튼</a><br /><br /><a href="javascript:;" class="G-btn-r">그레이 컬러 버튼</a><br /><br /><a href="javascript:;" class="G-btn-r"
+                                >a버튼 Black컬러 버튼</a
+                            ><br /><br /><a href="javascript:;" class="P-btn-r">p-color컬러 버튼</a><br /><br /><a href="javascript:;" class="B-back-r"><span></span>이전으로 돌아가기</a><br /><br /><a href="javascript:;" class="B-next-r">다음으로 넘어가기<span></span></a><br /><br /><a
+                                href="javascript:;"
+                                class="B-add-r"
+                                ><span></span>상주업체 추가</a
+                            ><br /><br /><a href="javascript:;" class="P-next-r">다음으로 넘어가기<span></span></a><br /><br /><a href="javascript:;" class="P-search-r"><span></span>상품자세히 보기</a><br /><br /><a href="javascript:;" class="B-addr-r"><span></span>주소검색</a><br /><br /><a
+                                href="javascript:;"
+                                class="B-sch-r"
+                                >미리뷰 업체 변경<span></span></a
+                            ><br /><br /><a href="javascript:;" class="B-arr-r">미리뷰 업체 변경<span></span></a><br /><br /><a href="#" class="p-5">border-radius 5px</a><br /><br /><a href="#" class="g-5">border-radius 5px</a><br /><br />
                         </div>
-
-                        <div class="w-full btn-p">w-full</div>
-                    </pre></div></div><div id="checkbox-r" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>a 태그버튼</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div><a href="javascript:;" class="P-r">P컬러 버튼</a><br><br><a href="javascript:;" class="B-r">B컬러 버튼</a><br><br><a href="javascript:;" class="P-sch-r"><span></span>상품자세히 보기</a><br><br><a href="javascript:;" class="A-btn-r">Alert컬러 버튼</a><br><br><a href="javascript:;" class="B-btn-r">Black컬러 버튼</a><br><br><a href="javascript:;" class="B-btn-r">a버튼 Black컬러 버튼</a><br><br><a href="javascript:;" class="G-btn-r">그레이 컬러 버튼</a><br><br><a href="javascript:;" class="G-btn-r">a버튼 Black컬러 버튼</a><br><br><a href="javascript:;" class="P-btn-r">p-color컬러 버튼</a><br><br><a href="javascript:;" class="B-back-r"><span></span>이전으로 돌아가기</a><br><br><a href="javascript:;" class="B-next-r">다음으로 넘어가기<span></span></a><br><br><a href="javascript:;" class="B-add-r"><span></span>상주업체 추가</a><br><br><a href="javascript:;" class="P-next-r">다음으로 넘어가기<span></span></a><br><br><a href="javascript:;" class="P-search-r"><span></span>상품자세히 보기</a><br><br><a href="javascript:;" class="B-addr-r"><span></span>주소검색</a><br><br><a href="javascript:;" class="B-sch-r">미리뷰 업체 변경<span></span></a><br><br><a href="javascript:;" class="B-arr-r">미리뷰 업체 변경<span></span></a><br><br><a href="#" class="p-5">border-radius 5px</a><br><br><a href="#" class="g-5">border-radius 5px</a><br><br></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
                         <a href="javascript:;" class="P-r">P컬러 버튼</a>
                         <a href="javascript:;" class="P-sch-r"><span></span>상품자세히 보기</a>
                         <a href="javascript:;" class="B-r">B컬러 버튼</a>
@@ -214,7 +614,66 @@
                         <a href="javascript:;" class="B-addr-r"><span></span>주소검색</a>
                         <a href="javascript:;" class="B-sch-r">미리뷰 업체 변경<span></span></a>
                         <a href="javascript:;" class="B-sch-btn"></a>
-                    </pre></div></div><div id="checkbox2" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>선택 버튼</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div><div class="one-rd-bx"><input type="checkbox" id="oneId1" name="oneName0" value="Y" checked="checked"/> <label for="oneId1">예</label></div><br><div class="tw-rd-bx"><input type="radio" id="twId1" name="twName0" value="Y" checked="checked"/> <label for="twId1">예</label> <input type="radio" id="twId2" name="twName0" value="N"/> <label for="twId2" class="">아니요</label></div><br><div class="thr-rd-bx"><input type="radio" id="thrId1" name="thrName0" value="Y" checked="checked"/> <label for="thrId1">예</label> <input type="radio" id="thrId2" name="thrName0" value="N"/> <label for="thrId2">아니요</label> <input type="radio" id="thrId3" name="thrName0" value="N"/> <label for="thrId3">아니요</label></div><br><div class="fr-rd-bx"><input type="radio" id="frId1" name="frName0" value="Y" checked="checked"/> <label for="frId1">예</label> <input type="radio" id="frId2" name="frName0" value="N"/> <label for="frId2">아니요</label> <input type="radio" id="frId3" name="frName0" value="N"/> <label for="frId3">아니요</label> <input type="radio" id="frId4" name="frName0" value="N"/> <label for="frId4">아니요</label></div><br><div class="fv-rd-bx"><input type="radio" id="fvId1" name="fvName0" value="Y" checked="checked"/> <label for="fvId1">예</label> <input type="radio" id="fvId2" name="fvName0" value="N"/> <label for="fvId2">아니요</label> <input type="radio" id="fvId3" name="fvName0" value="N"/> <label for="fvId3">아니요</label> <input type="radio" id="fvId4" name="fvName0" value="N"/> <label for="fvId4">아니요</label> <input type="radio" id="fvId5" name="fvName0" value="N"/> <label for="fvId5">아니요</label></div></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                    </pre>
+                    </div>
+                </div>
+                <div id="checkbox2" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>선택 버튼</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <div class="one-rd-bx">
+                                <input type="checkbox" id="oneId1" name="oneName0" value="Y" checked="checked" />
+                                <label for="oneId1">예</label>
+                            </div>
+                            <br />
+                            <div class="tw-rd-bx">
+                                <input type="radio" id="twId1" name="twName0" value="Y" checked="checked" />
+                                <label for="twId1">예</label>
+                                <input type="radio" id="twId2" name="twName0" value="N" />
+                                <label for="twId2" class="">아니요</label>
+                            </div>
+                            <br />
+                            <div class="thr-rd-bx">
+                                <input type="radio" id="thrId1" name="thrName0" value="Y" checked="checked" />
+                                <label for="thrId1">예</label>
+                                <input type="radio" id="thrId2" name="thrName0" value="N" />
+                                <label for="thrId2">아니요</label>
+                                <input type="radio" id="thrId3" name="thrName0" value="N" />
+                                <label for="thrId3">아니요</label>
+                            </div>
+                            <br />
+                            <div class="fr-rd-bx">
+                                <input type="radio" id="frId1" name="frName0" value="Y" checked="checked" />
+                                <label for="frId1">예</label>
+                                <input type="radio" id="frId2" name="frName0" value="N" />
+                                <label for="frId2">아니요</label>
+                                <input type="radio" id="frId3" name="frName0" value="N" />
+                                <label for="frId3">아니요</label>
+                                <input type="radio" id="frId4" name="frName0" value="N" />
+                                <label for="frId4">아니요</label>
+                            </div>
+                            <br />
+                            <div class="fv-rd-bx">
+                                <input type="radio" id="fvId1" name="fvName0" value="Y" checked="checked" />
+                                <label for="fvId1">예</label>
+                                <input type="radio" id="fvId2" name="fvName0" value="N" />
+                                <label for="fvId2">아니요</label>
+                                <input type="radio" id="fvId3" name="fvName0" value="N" />
+                                <label for="fvId3">아니요</label>
+                                <input type="radio" id="fvId4" name="fvName0" value="N" />
+                                <label for="fvId4">아니요</label>
+                                <input type="radio" id="fvId5" name="fvName0" value="N" />
+                                <label for="fvId5">아니요</label>
+                            </div>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
                         <div class="one-rd-bx">
                             <input type="checkbox" id="twId01" name="oneName" value="Y" checked="checked"/>
                             <label for="twId01">예</label>
@@ -259,9 +718,58 @@
                             <input type="radio" id="fvId05" name="fvName" value="N"/>
                             <label for="fvId05">아니요</label>
                         </div>
-                    </pre></div></div><div id="gradation" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>그라데이션 컬러</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div class="P-grad">그라데이션 45도</div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                    </pre>
+                    </div>
+                </div>
+                <div id="gradation" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>그라데이션 컬러</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
                         <div class="P-grad">그라데이션 45도</div>
-                    </pre></div></div><div id="gradation-box" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>그라데이션 박스</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div><div class="df"><input type="radio" id="std1" class="lbl-opt-ip" name="S0"> <label class="lbl-opt" for="std1"><span class="lbl-miri"></span> <span class="lbl-txt">STANDARD</span> <span class="lbl-img"></span></label> <input type="radio" id="std2" class="lbl-opt-ip" name="S0" disabled="disabled"> <label class="lbl-opt" for="std2"><span class="lbl-miri"></span> <span class="lbl-txt">PREMIUM</span> <span class="lbl-img"></span></label> <input type="radio" id="std3" class="lbl-opt-ip" name="S0" checked="checked"> <label class="lbl-opt" for="std3"><span class="lbl-miri"></span> <span class="lbl-txt">SMART</span> <span class="lbl-img"></span></label></div></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
+                        <div class="P-grad">그라데이션 45도</div>
+                    </pre>
+                    </div>
+                </div>
+                <div id="gradation-box" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>그라데이션 박스</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <div class="df">
+                                <input type="radio" id="std1" class="lbl-opt-ip" name="S0" />
+                                <label class="lbl-opt" for="std1"
+                                    ><span class="lbl-miri"></span>
+                                    <span class="lbl-txt">STANDARD</span>
+                                    <span class="lbl-img"></span
+                                ></label>
+                                <input type="radio" id="std2" class="lbl-opt-ip" name="S0" disabled="disabled" />
+                                <label class="lbl-opt" for="std2"
+                                    ><span class="lbl-miri"></span>
+                                    <span class="lbl-txt">PREMIUM</span>
+                                    <span class="lbl-img"></span
+                                ></label>
+                                <input type="radio" id="std3" class="lbl-opt-ip" name="S0" checked="checked" />
+                                <label class="lbl-opt" for="std3"
+                                    ><span class="lbl-miri"></span>
+                                    <span class="lbl-txt">SMART</span>
+                                    <span class="lbl-img"></span
+                                ></label>
+                            </div>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
                         <div class="df">
                             <input type="radio" id="std01" class="lbl-opt-ip" name="S">
                             <label class="lbl-opt" for="std01">
@@ -282,7 +790,42 @@
                                 <span class="lbl-img"></span>
                             </label>
                         </div>
-                    </pre></div></div><div id="step-box" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>단계 박스</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><ul class="step-box"><li><div class="rr"><span class="Title_S rr01 on">1</span> <span class="body_L">상품선택</span></div></li><li><div class="rr"><span class="Title_S rr02">2</span> <span class="body_L">견적가 입력</span></div></li><li><div class="rr"><span class="Title_S rr03">3</span> <span class="body_L">견적 작성 및 비교</span></div></li><li><i></i></li></ul><div></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                    </pre>
+                    </div>
+                </div>
+                <div id="step-box" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>단계 박스</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <ul class="step-box">
+                            <li>
+                                <div class="rr">
+                                    <span class="Title_S rr01 on">1</span>
+                                    <span class="body_L">상품선택</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="rr">
+                                    <span class="Title_S rr02">2</span>
+                                    <span class="body_L">견적가 입력</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="rr">
+                                    <span class="Title_S rr03">3</span>
+                                    <span class="body_L">견적 작성 및 비교</span>
+                                </div>
+                            </li>
+                            <li><i></i></li>
+                        </ul>
+                        <div></div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
                 <ul class="step-box">
                     <li>
                     <div class="rr">
@@ -306,7 +849,70 @@
                     <i></i>
                     </li>
                 </ul>
-                </pre></div></div><div id="miri-search-form" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>MIRI 써치폼</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div><article class="miri-sch-form-a"><div class="top"><div class="top"><span class="mt w80">협력사</span> <span class="md"><span class="selectbox-s"><select class="w72"><option>전체</option><option value="1">부서</option><option value="2">지역</option><option value="3">팀</option></select> </span><span class="selectbox-s"><select class="sel-one w72" disabled="disabled"><option value="">전체</option></select> </span><span class="selectbox-s"><select class="sel-two w72" disabled="disabled"><option value="">전체</option></select></span></span></div><span class="mt w60" style="margin: 0 0 0 40px;">구분</span> <span><span class="selectbox-s"><select class="w120"><option value="">전체</option></select> </span></span><span class="mt w80" style="margin: 0 0 0 40px;">기준일자</span> <span><span class="input-datepicker"><input class="datepicker" placeholder="YYYY-MM-DD" value=""></span></span></div><div class="bottom"><span class="mt w80">Proj No.</span> <span><span><input class="input-ff w160 h40"> </span></span><span><a href="#" class="B-sch-btn"></a> </span><span class="mt w80" style="margin: 0 0 0 40px;">통합 Proj.</span> <span><span><input class="input-ff w160 h40"> </span></span><span>-</span> <span><span><input class="input-ff w80 h40" style="margin: 0 8px;"> </span></span><span><a href="#" class="B-sch-btn"></a></span></div></article></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                </pre>
+                    </div>
+                </div>
+                <div id="miri-search-form" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>MIRI 써치폼</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <article class="miri-sch-form-a">
+                                <div class="top">
+                                    <div class="top">
+                                        <span class="mt w80">협력사</span>
+                                        <span class="md"
+                                            ><span class="selectbox-s"
+                                                ><select class="w72">
+                                                    <option>전체</option>
+                                                    <option value="1">부서</option>
+                                                    <option value="2">지역</option>
+                                                    <option value="3">팀</option>
+                                                </select> </span
+                                            ><span class="selectbox-s"
+                                                ><select class="sel-one w72" disabled="disabled">
+                                                    <option value="">전체</option>
+                                                </select> </span
+                                            ><span class="selectbox-s"
+                                                ><select class="sel-two w72" disabled="disabled">
+                                                    <option value="">전체</option>
+                                                </select></span
+                                            ></span
+                                        >
+                                    </div>
+                                    <span class="mt w60" style="margin: 0 0 0 40px">구분</span>
+                                    <span
+                                        ><span class="selectbox-s"
+                                            ><select class="w120">
+                                                <option value="">전체</option>
+                                            </select>
+                                        </span></span
+                                    ><span class="mt w80" style="margin: 0 0 0 40px">기준일자</span>
+                                    <span
+                                        ><span class="input-datepicker"><input class="datepicker" placeholder="YYYY-MM-DD" value="" /></span
+                                    ></span>
+                                </div>
+                                <div class="bottom">
+                                    <span class="mt w80">Proj No.</span>
+                                    <span
+                                        ><span><input class="input-ff w160 h40" /> </span></span
+                                    ><span><a href="#" class="B-sch-btn"></a> </span><span class="mt w80" style="margin: 0 0 0 40px">통합 Proj.</span>
+                                    <span
+                                        ><span><input class="input-ff w160 h40" /> </span></span
+                                    ><span>-</span>
+                                    <span
+                                        ><span><input class="input-ff w80 h40" style="margin: 0 8px" /> </span></span
+                                    ><span><a href="#" class="B-sch-btn"></a></span>
+                                </div>
+                            </article>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
                 <article class="miri-sch-form-a">
                     <div class="top">
                     <div class="top">
@@ -377,7 +983,43 @@
                     <a href="#" class="B-btn-r w160 h40">조회</a>
                     </div>
                 </article>
-                </pre></div></div><div id="aaa" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>부서 지역 팀</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div><div class="top"><span class="mt w80">협력사</span> <span class="md"><span class="selectbox-s sel-start"><select class="w72"><option>전체</option><option value="1">지역</option><option value="2">부서</option><option value="3">팀</option></select> </span><span class="selectbox-s"><select class="sel-one w72" disabled="disabled"><option value="">전체</option></select> </span><span class="selectbox-s"><select class="sel-two w72" disabled="disabled"><option value="">전체</option></select></span></span></div></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                </pre>
+                    </div>
+                </div>
+                <div id="aaa" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>부서 지역 팀</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <div class="top">
+                                <span class="mt w80">협력사</span>
+                                <span class="md"
+                                    ><span class="selectbox-s sel-start"
+                                        ><select class="w72">
+                                            <option>전체</option>
+                                            <option value="1">지역</option>
+                                            <option value="2">부서</option>
+                                            <option value="3">팀</option>
+                                        </select> </span
+                                    ><span class="selectbox-s"
+                                        ><select class="sel-one w72" disabled="disabled">
+                                            <option value="">전체</option>
+                                        </select> </span
+                                    ><span class="selectbox-s"
+                                        ><select class="sel-two w72" disabled="disabled">
+                                            <option value="">전체</option>
+                                        </select></span
+                                    ></span
+                                >
+                            </div>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
                         <span class="mt w80">협력사</span>
                         <span class="md">
                             <span class="selectbox-s sel-start">
@@ -399,7 +1041,34 @@
                                 </select>
                             </span>
                         </span>
-                    </pre></div></div><div id="pagination" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>페이지네이션</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div><div class="miri-pagination"><a href="#"><span><img src="" alt=""></span></a><a href="#"><span><img src="" alt=""></span></a><a href="#" class="on">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> <a href="#">6</a> <a href="#">7</a> <a href="#">8</a> <a href="#"><span><img src="" alt=""></span></a><a href="#"><span><img src="" alt=""></span></a></div></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                    </pre>
+                    </div>
+                </div>
+                <div id="pagination" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>페이지네이션</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <div class="miri-pagination">
+                                <a href="#"
+                                    ><span><img src="" alt="" /></span></a
+                                ><a href="#"
+                                    ><span><img src="" alt="" /></span></a
+                                ><a href="#" class="on">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a> <a href="#">6</a> <a href="#">7</a> <a href="#">8</a>
+                                <a href="#"
+                                    ><span><img src="" alt="" /></span></a
+                                ><a href="#"
+                                    ><span><img src="" alt="" /></span
+                                ></a>
+                            </div>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
 
                 <div class="miri-pagination">
                     <a href="#">
@@ -423,7 +1092,63 @@
                     <span><img src="" alt=""></span>
                     </a>
                 </div>
-                </pre></div></div><div id="fontSize" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>텍스트 사이즈</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div><span class="fz10">10px</span> <span class="fz11">11px</span> <span class="fz12">12px</span> <span class="fz13">13px</span> <span class="fz14">14px</span> <span class="fz15">15px</span> <span class="fz16">16px</span> <span class="fz17">17px</span> <span class="fz18">18px</span> <span class="fz19">19px</span> <span class="fz20">20px</span> <span class="fz21">21px</span> <span class="fz22">22px</span> <span class="fz23">23px</span> <span class="fz24">24px</span> <span class="fz25">25px</span> <span class="fz26">26px</span> <span class="fz27">27px</span> <span class="fz28">28px</span> <span class="fz29">29px</span> <span class="fz30">30px</span><br><span class="H1">H1</span> <span class="H2">H2</span> <span class="H3">H3</span> <span class="head_L">head_L</span> <span class="head_M">head_M</span> <span class="head_S">head_S</span> <span class="Title_L">Title_L</span> <span class="Title_M">Title_M</span> <span class="Title_S">Title_S</span> <span class="body_L">body_L</span> <span class="body_M">body_M</span> <span class="body_S">body_S</span> <span class="Label_L">Label_L</span> <span class="Label_M">Label_M</span> <span class="Label_S">Label_S</span> <span class="SemiBold">Label_S</span><br><span class="fw400">400</span> <span class="fw500">500</span> <span class="fw600">600</span> <span class="fw700">700</span> <span class="fw800">800</span> <span class="fw900">900</span></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                </pre>
+                    </div>
+                </div>
+                <div id="fontSize" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>텍스트 사이즈</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <span class="fz10">10px</span>
+                            <span class="fz11">11px</span>
+                            <span class="fz12">12px</span>
+                            <span class="fz13">13px</span>
+                            <span class="fz14">14px</span>
+                            <span class="fz15">15px</span>
+                            <span class="fz16">16px</span>
+                            <span class="fz17">17px</span>
+                            <span class="fz18">18px</span>
+                            <span class="fz19">19px</span>
+                            <span class="fz20">20px</span>
+                            <span class="fz21">21px</span>
+                            <span class="fz22">22px</span>
+                            <span class="fz23">23px</span>
+                            <span class="fz24">24px</span>
+                            <span class="fz25">25px</span>
+                            <span class="fz26">26px</span>
+                            <span class="fz27">27px</span>
+                            <span class="fz28">28px</span>
+                            <span class="fz29">29px</span>
+                            <span class="fz30">30px</span><br /><span class="H1">H1</span>
+                            <span class="H2">H2</span>
+                            <span class="H3">H3</span>
+                            <span class="head_L">head_L</span>
+                            <span class="head_M">head_M</span>
+                            <span class="head_S">head_S</span>
+                            <span class="Title_L">Title_L</span>
+                            <span class="Title_M">Title_M</span>
+                            <span class="Title_S">Title_S</span>
+                            <span class="body_L">body_L</span>
+                            <span class="body_M">body_M</span>
+                            <span class="body_S">body_S</span>
+                            <span class="Label_L">Label_L</span>
+                            <span class="Label_M">Label_M</span>
+                            <span class="Label_S">Label_S</span>
+                            <span class="SemiBold">Label_S</span><br /><span class="fw400">400</span>
+                            <span class="fw500">500</span>
+                            <span class="fw600">600</span>
+                            <span class="fw700">700</span>
+                            <span class="fw800">800</span>
+                            <span class="fw900">900</span>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
                         <span class="fz10">10px</span>
                         <span class="fz11">11px</span>
                         <span class="fz12">12px</span>
@@ -468,56 +1193,292 @@
                         <span class="fw700">700</span>
                         <span class="fw800">800</span>
                         <span class="fw900">900</span>
-                    </pre></div></div><div id="fontColor" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>텍스트 컬러</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div><span class="fc-bder">black-darker</span> <span class="fc-bd">black-dark</span> <span class="fc-b">black</span> <span class="fc-bl">black-light</span> <span class="fc-bler">black-lighter</span> <span class="fc-gder">gray-darker</span> <span class="fc-gd">gray-dark</span> <span class="fc-g">gray</span> <span class="fc-gl">gray-light</span> <span class="fc-gler">gray-lighter</span> <span class="fc-w">white</span> <span class="fc-gw">gray-white</span> <span class="fc-ylw">gray-white</span></div><span class="html">Html</span><pre name="code" class="brush:xml;">
-                    <span class="fc-bder">black-darker</span>
-                    <span class="fc-bd">black-dark</span>
-                    <span class="fc-b">black</span>
-                    <span class="fc-bl">black-light</span>
-                    <span class="fc-bler">black-lighter</span>
-                    <span class="fc-gder">gray-darker</span>
-                    <span class="fc-gd">gray-dark</span>
-                    <span class="fc-g">gray</span>
-                    <span class="fc-gl">gray-light</span>
-                    <span class="fc-gler">gray-lighter</span>
-                    <span class="fc-w">white</span>
-                    <span class="fc-gw">gray-white</span>
-                    <span class="fc-ylw">gray-white</span>
-                </pre></div></div><div id="fontBold" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>텍스트 굵기</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div><span class="bold">굵은폰트</span></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                    </pre>
+                    </div>
+                </div>
+                <div id="fontColor" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>텍스트 컬러</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <span class="fc-bder">black-darker</span>
+                            <span class="fc-bd">black-dark</span>
+                            <span class="fc-b">black</span>
+                            <span class="fc-bl">black-light</span>
+                            <span class="fc-bler">black-lighter</span>
+                            <span class="fc-gder">gray-darker</span>
+                            <span class="fc-gd">gray-dark</span>
+                            <span class="fc-g">gray</span>
+                            <span class="fc-gl">gray-light</span>
+                            <span class="fc-gler">gray-lighter</span>
+                            <span class="fc-w">white</span>
+                            <span class="fc-gw">gray-white</span>
+                            <span class="fc-ylw">gray-white</span>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
+                            <span class="fc-bder">black-darker</span>
+                            <span class="fc-bd">black-dark</span>
+                            <span class="fc-b">black</span>
+                            <span class="fc-bl">black-light</span>
+                            <span class="fc-bler">black-lighter</span>
+                            <span class="fc-gder">gray-darker</span>
+                            <span class="fc-gd">gray-dark</span>
+                            <span class="fc-g">gray</span>
+                            <span class="fc-gl">gray-light</span>
+                            <span class="fc-gler">gray-lighter</span>
+                            <span class="fc-w">white</span>
+                            <span class="fc-gw">gray-white</span>
+                            <span class="fc-ylw">gray-white</span>
+                        </pre>
+                    </div>
+                </div>
+                <div id="fontBold" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>텍스트 굵기</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div><span class="bold">굵은폰트</span></div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
                     <span class="bold">굵은폰트</span>
-                </pre></div></div><div id="textAlign" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>텍스트 정렬</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li><li>블럭 요소에만 사용. 논블럭 요소는 인라인블럭 요소 또는 블럭 요서로 변경 후 사용.</li></ul><span class="preview">Preview</span><p class="gap"></p><div><p class="tal">좌측 정렬</p><p class="tac">센터 정렬</p><p class="tar">우측 정렬</p></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                </pre>
+                    </div>
+                </div>
+                <div id="textAlign" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>텍스트 정렬</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                            <li>블럭 요소에만 사용. 논블럭 요소는 인라인블럭 요소 또는 블럭 요서로 변경 후 사용.</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <p class="tal">좌측 정렬</p>
+                            <p class="tac">센터 정렬</p>
+                            <p class="tar">우측 정렬</p>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
                     <p class="tal">좌측 정렬</p>
                     <p class="tac">센터 정렬</p>
                     <p class="tar">우측 정렬</p>
-                </pre></div></div><div id="textarea" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>텍스트 area</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>텍스트에어리어는 바깥에 span class="textarea" 으로 감싸고 사용한다.</li><li>고정높이는 높이가 정해져 있고, 길어질시 스크롤이 생긴다</li><li>자동높이는 길어질시 텍스트에어리어영역이 자동으로 늘어난다.</li></ul><span class="preview">Preview</span><p class="gap"></p><div>고정높이<br><span class="textarea"><textarea placeholder="내용을 입력하세요"></textarea></span><br>자동높이<br><span class="textarea"><textarea class="autosize" placeholder="내용을 입력하세요"></textarea></span></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                </pre>
+                    </div>
+                </div>
+                <div id="textarea" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>텍스트 area</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>텍스트에어리어는 바깥에 span class="textarea" 으로 감싸고 사용한다.</li>
+                            <li>고정높이는 높이가 정해져 있고, 길어질시 스크롤이 생긴다</li>
+                            <li>자동높이는 길어질시 텍스트에어리어영역이 자동으로 늘어난다.</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            고정높이<br /><span class="textarea">
+                                <textarea placeholder="내용을 입력하세요"></textarea></span
+                            ><br />자동높이<br /><span class="textarea">
+                                <textarea class="autosize" placeholder="내용을 입력하세요"></textarea>
+                            </span>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
                         <span class="textarea"><textarea placeholder="내용을 입력하세요"></textarea></span>
                         <span class="textarea"><textarea class="autosize" placeholder="내용을 입력하세요"></textarea></span>
-                    </pre></div></div><div id="ellip" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>말줄임</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div><h1 class="ellip-line">말줄임 100%</h1><h1 class="eps1 w20">말줄임 너비 지정해서 사용하기</h1></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                    </pre>
+                    </div>
+                </div>
+                <div id="ellip" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>말줄임</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <h1 class="ellip-line">말줄임 100%</h1>
+                            <h1 class="eps1 w20">말줄임 너비 지정해서 사용하기</h1>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
                         <h1 class="ellip-line">말줄임 100% </h1>
                         <h1 class="eps1">말줄임 너비 지정해서 사용하기</h1>
-                    </pre></div></div><div id="bgColor" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>배경 컬러</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div><span class="bg-p fc-w">p-color</span> <span class="bg-a fc-w">alert</span></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                    </pre>
+                    </div>
+                </div>
+                <div id="bgColor" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>배경 컬러</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <span class="bg-p fc-w">p-color</span>
+                            <span class="bg-a fc-w">alert</span>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
                     <span class="bg-p">p-color</span>
                     <span class="bg-a">alert</span>
-                    </pre></div></div><div id="prClrVrd" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>프라이머리 컬러 베리데이션</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div><span class="p-clr-drk10">p-color10</span> <span class="p-clr-drk20">p-color20</span> <span class="p-clr-drk30">p-color30</span> <span class="p-clr-drk40">p-color40</span> <span class="p-clr-drk50">p-color50</span> <span class="p-clr-drk60">p-color60</span> <span class="p-clr-drk70">p-color70</span> <span class="p-clr-drk80">p-color80</span> <span class="p-clr-drk90">p-color90</span><br><br><span class="p-clr-lgt10">p-color10</span> <span class="p-clr-lgt20">p-color20</span> <span class="p-clr-lgt30">p-color30</span> <span class="p-clr-lgt40">p-color40</span> <span class="p-clr-lgt50">p-color50</span> <span class="p-clr-lgt60">p-color60</span> <span class="p-clr-lgt70">p-color70</span> <span class="p-clr-lgt80">p-color80</span> <span class="p-clr-lgt90">p-color90</span></div><span class="html">Html</span><pre name="code" class="brush:xml;">
-                    <span class="p-clr-drk10">p-color10</span>
-                    <span class="p-clr-drk20">p-color20</span>
-                    <span class="p-clr-drk30">p-color30</span>
-                    <span class="p-clr-drk40">p-color40</span>
-                    <span class="p-clr-drk50">p-color50</span>
-                    <span class="p-clr-drk60">p-color60</span>
-                    <span class="p-clr-drk70">p-color70</span>
-                    <span class="p-clr-drk80">p-color80</span>
-                    <span class="p-clr-drk90">p-color90</span>
+                    </pre>
+                    </div>
+                </div>
+                <div id="prClrVrd" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>프라이머리 컬러 베리데이션</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <span class="p-clr-drk10">p-color10</span>
+                            <span class="p-clr-drk20">p-color20</span>
+                            <span class="p-clr-drk30">p-color30</span>
+                            <span class="p-clr-drk40">p-color40</span>
+                            <span class="p-clr-drk50">p-color50</span>
+                            <span class="p-clr-drk60">p-color60</span>
+                            <span class="p-clr-drk70">p-color70</span>
+                            <span class="p-clr-drk80">p-color80</span>
+                            <span class="p-clr-drk90">p-color90</span><br /><br /><span class="p-clr-lgt10">p-color10</span>
+                            <span class="p-clr-lgt20">p-color20</span>
+                            <span class="p-clr-lgt30">p-color30</span>
+                            <span class="p-clr-lgt40">p-color40</span>
+                            <span class="p-clr-lgt50">p-color50</span>
+                            <span class="p-clr-lgt60">p-color60</span>
+                            <span class="p-clr-lgt70">p-color70</span>
+                            <span class="p-clr-lgt80">p-color80</span>
+                            <span class="p-clr-lgt90">p-color90</span>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
+                            <span class="p-clr-drk10">p-color10</span>
+                            <span class="p-clr-drk20">p-color20</span>
+                            <span class="p-clr-drk30">p-color30</span>
+                            <span class="p-clr-drk40">p-color40</span>
+                            <span class="p-clr-drk50">p-color50</span>
+                            <span class="p-clr-drk60">p-color60</span>
+                            <span class="p-clr-drk70">p-color70</span>
+                            <span class="p-clr-drk80">p-color80</span>
+                            <span class="p-clr-drk90">p-color90</span>
 
-                    <span class="p-clr-lgt10">p-color10</span>
-                    <span class="p-clr-lgt20">p-color20</span>
-                    <span class="p-clr-lgt30">p-color30</span>
-                    <span class="p-clr-lgt40">p-color40</span>
-                    <span class="p-clr-lgt50">p-color50</span>
-                    <span class="p-clr-lgt60">p-color60</span>
-                    <span class="p-clr-lgt70">p-color70</span>
-                    <span class="p-clr-lgt80">p-color80</span>
-                    <span class="p-clr-lgt90">p-color90</span>
-                    </pre></div></div><div id="agree-box" class="element"><h2><i class="material-icons-outlined">do_not_disturb_on</i><span>동의박스</span></h2><div class="elements"><span class="use">Use</span><ul class="desc"><li>사용할 곳에 클래스를 원하는 클래스를 지정</li></ul><span class="preview">Preview</span><p class="gap"></p><div><ul><li><div class="g-box"><input type="checkbox" id="gboxImsi1" class="chk-inpt"> <label for="gboxImsi1" class="tit-txt cp tit-b-s"><span class="material-symbols-outlined material-icons chk-cir-icon">check_circle_outline</span> <span class="body_XL ml12">클릭시 동의 <span>(필수)</span></span></label> <img src="${contextPath}/static/img/common/ico_agree_arr.png" class="agree-arr" alt="화살표"></div><div class="g-box-content" style="display: none;"><ul><li><span class="body_XL">수집 및 이용목적 : CMS 출금이체를 통한 요금수납</span></li><li class="body_XL"><span class="body_XL">수집항목 : 성명, 전화번호, 휴대폰번호, 금융기관명, 계좌번호</span></li><li class="body_XL"><span class="body_XL">보유 및 이용기간 :수집 이용 동의일로부터 CMS 출금이체 종료일(해지일) 후 5년까지</span></li><li class="body_XL"><span class="body_XL">신청자는 개인정보 수집 및 이용을 거부할 권리가 있으며, 권리행사시 출금이체 신청이 거부될 수 있습니다.</span></li></ul></div></li><br><li><div class="g-box"><input type="checkbox" id="gboxImsi2" class="chk-inpt"> <label for="gboxImsi2" class="tit-txt cp tit-b-s"><span class="material-symbols-outlined material-icons chk-cir-icon">check_circle_outline</span> <span class="body_XL ml12">스크롤 끝에 동의 <span>(필수)</span></span></label> <img src="${contextPath}/static/img/common/ico_agree_arr.png" class="agree-arr" alt="화살표"></div><div class="g-box-content" style="display: none;"><div class="g-box-inner scroll-event"><ul class="body_L scroll-eve-con"><li><span class="body_XL">개인정보를 제공받는 자 : 사단법인 금융결제원</span></li><li class="body_XL"><span class="body_XL">개인정보를 제공받는 자 외 개인정보 이용 목적<br>: CMS 출금이체 서비스 제공 및 출금동의 확인, 출금이체 신규등록 및 해지 사실 통지</span></li><li class="body_XL"><span class="body_XL">제공하는 개인정보의 항목<br>: 성명, 금융기관명, 계좌번호, 생년월일, 전화번호, (은행 등 금융회사 및 이용기관 보유) 휴대폰 번호</span></li><li class="body_XL"><span class="body_XL">개인정보를 제공받는 자의 개인정보 보유 및 이용기간<br>: CMS 출금이체 서비스 제공 및 출금동의 확인 목적을 달성할 때까지<br>신청자는 개인정보에 대해 금융결제원이 제공하는 것을 거부할 권리가 있으며, 거부시 출금이체 신청이 거부될 수 있습니다.</span></li><li><span class="body_XL">개인정보를 제공받는 자 : 사단법인 금융결제원</span></li><li class="body_XL"><span class="body_XL">개인정보를 제공받는 자 외 개인정보 이용 목적<br>: CMS 출금이체 서비스 제공 및 출금동의 확인, 출금이체 신규등록 및 해지 사실 통지</span></li><li class="body_XL"><span class="body_XL">제공하는 개인정보의 항목<br>: 성명, 금융기관명, 계좌번호, 생년월일, 전화번호, (은행 등 금융회사 및 이용기관 보유) 휴대폰 번호</span></li><li class="body_XL"><span class="body_XL">개인정보를 제공받는 자의 개인정보 보유 및 이용기간<br>: CMS 출금이체 서비스 제공 및 출금동의 확인 목적을 달성할 때까지<br>신청자는 개인정보에 대해 금융결제원이 제공하는 것을 거부할 권리가 있으며, 거부시 출금이체 신청이 거부될 수 있습니다.</span></li></ul></div></div></li></ul></div><span class="html">Html</span><pre name="code" class="brush:xml;">
+                            <span class="p-clr-lgt10">p-color10</span>
+                            <span class="p-clr-lgt20">p-color20</span>
+                            <span class="p-clr-lgt30">p-color30</span>
+                            <span class="p-clr-lgt40">p-color40</span>
+                            <span class="p-clr-lgt50">p-color50</span>
+                            <span class="p-clr-lgt60">p-color60</span>
+                            <span class="p-clr-lgt70">p-color70</span>
+                            <span class="p-clr-lgt80">p-color80</span>
+                            <span class="p-clr-lgt90">p-color90</span>
+                        </pre>
+                    </div>
+                </div>
+                <div id="agree-box" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>동의박스</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>사용할 곳에 클래스를 원하는 클래스를 지정</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <ul>
+                                <li>
+                                    <div class="g-box">
+                                        <input type="checkbox" id="gboxImsi1" class="chk-inpt" />
+                                        <label for="gboxImsi1" class="tit-txt cp tit-b-s"
+                                            ><span class="material-symbols-outlined material-icons chk-cir-icon">check_circle_outline</span> <span class="body_XL ml12">클릭시 동의 <span>(필수)</span></span></label
+                                        >
+                                        <img src="${contextPath}/static/img/common/ico_agree_arr.png" class="agree-arr" alt="화살표" />
+                                    </div>
+                                    <div class="g-box-content" style="display: none">
+                                        <ul>
+                                            <li>
+                                                <span class="body_XL">수집 및 이용목적 : CMS 출금이체를 통한 요금수납</span>
+                                            </li>
+                                            <li class="body_XL">
+                                                <span class="body_XL">수집항목 : 성명, 전화번호, 휴대폰번호, 금융기관명, 계좌번호</span>
+                                            </li>
+                                            <li class="body_XL">
+                                                <span class="body_XL">보유 및 이용기간 :수집 이용 동의일로부터 CMS 출금이체 종료일(해지일) 후 5년까지</span>
+                                            </li>
+                                            <li class="body_XL">
+                                                <span class="body_XL">신청자는 개인정보 수집 및 이용을 거부할 권리가 있으며, 권리행사시 출금이체 신청이 거부될 수 있습니다.</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <br />
+                                <li>
+                                    <div class="g-box">
+                                        <input type="checkbox" id="gboxImsi2" class="chk-inpt" />
+                                        <label for="gboxImsi2" class="tit-txt cp tit-b-s">
+                                            <span class="material-symbols-outlined material-icons chk-cir-icon">check_circle_outline</span> <span class="body_XL ml12">스크롤 끝에 동의 <span>(필수)</span></span>
+                                        </label>
+                                        <img src="${contextPath}/static/img/common/ico_agree_arr.png" class="agree-arr" alt="화살표" />
+                                    </div>
+                                    <div class="g-box-content" style="display: none">
+                                        <div class="g-box-inner scroll-event">
+                                            <ul class="body_L scroll-eve-con">
+                                                <li>
+                                                    <span class="body_XL">개인정보를 제공받는 자 : 사단법인 금융결제원</span>
+                                                </li>
+                                                <li class="body_XL">
+                                                    <span class="body_XL">개인정보를 제공받는 자 외 개인정보 이용 목적<br />: CMS 출금이체 서비스 제공 및 출금동의 확인, 출금이체 신규등록 및 해지 사실 통지</span>
+                                                </li>
+                                                <li class="body_XL">
+                                                    <span class="body_XL">제공하는 개인정보의 항목<br />: 성명, 금융기관명, 계좌번호, 생년월일, 전화번호, (은행 등 금융회사 및 이용기관 보유) 휴대폰 번호</span>
+                                                </li>
+                                                <li class="body_XL">
+                                                    <span class="body_XL"
+                                                        >개인정보를 제공받는 자의 개인정보 보유 및 이용기간<br />: CMS 출금이체 서비스 제공 및 출금동의 확인 목적을 달성할 때까지<br />신청자는 개인정보에 대해 금융결제원이 제공하는 것을 거부할 권리가 있으며, 거부시 출금이체 신청이 거부될 수
+                                                        있습니다.</span
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <span class="body_XL">개인정보를 제공받는 자 : 사단법인 금융결제원</span>
+                                                </li>
+                                                <li class="body_XL">
+                                                    <span class="body_XL">개인정보를 제공받는 자 외 개인정보 이용 목적<br />: CMS 출금이체 서비스 제공 및 출금동의 확인, 출금이체 신규등록 및 해지 사실 통지</span>
+                                                </li>
+                                                <li class="body_XL">
+                                                    <span class="body_XL">제공하는 개인정보의 항목<br />: 성명, 금융기관명, 계좌번호, 생년월일, 전화번호, (은행 등 금융회사 및 이용기관 보유) 휴대폰 번호</span>
+                                                </li>
+                                                <li class="body_XL">
+                                                    <span class="body_XL"
+                                                        >개인정보를 제공받는 자의 개인정보 보유 및 이용기간<br />: CMS 출금이체 서비스 제공 및 출금동의 확인 목적을 달성할 때까지<br />신청자는 개인정보에 대해 금융결제원이 제공하는 것을 거부할 권리가 있으며, 거부시 출금이체 신청이 거부될 수 있습니다.
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
 
                         <ul>
                             <li>
@@ -589,8 +1550,225 @@
                                         </ul>
                                     </div>
                                 </div>
-
                             </li>
                         </ul>
+                    </pre>
+                    </div>
+                </div>
 
-                    </pre></div></div></div></div><script src="../js/main.js"></script></body></html>
+                <!-- //////////////////////////////////// 사이징 //////////////////////////////////// -->
+
+                
+                <div id="widthGuide" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>너비</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>요소를 고정 너비로 ​​설정하려면 w{number}또는 를 사용하세요 . 10px 단위 존재</li>
+                            <li>요소를 고정 너비로 ​​설정하려면 w-{number}또는 를 사용하세요 . rem</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <div class="w800 btn-p">w800</div>
+                            <br /><br />
+                            <div class="w600 btn-p">w600</div>
+                            <br /><br />
+                            <div class="w400 btn-p">w400</div>
+                            <br /><br />
+                            <div class="w-96 btn-p">w-96</div>
+                            <br /><br />
+                            <div class="w-60 btn-p">w-60</div>
+                            <br /><br />
+                            <div class="w-32 btn-p">w-32</div>
+                            <br /><br />
+                            <div class="df">
+                                <div class="w-1/2 btn-p">w-1/2</div>
+                                <div class="w-1/2 btn-p">w-1/2</div>
+                            </div>
+                            <br />
+                            <div class="df">
+                                <div class="w-2/5 btn-p">w-2/5</div>
+                                <div class="w-3/5 btn-p">w-3/5</div>
+                            </div>
+                            <br />
+                            <div class="df">
+                                <div class="w-1/6 btn-p">w-1/6</div>
+                                <div class="w-5/6 btn-p">w-5/6</div>
+                            </div>
+                            <br />
+                            <div class="w-full btn-p">w-full</div>
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
+                        <div class="w800 btn-p">w800</div>
+                        <div class="w600 btn-p">w600</div>
+                        <div class="w400 btn-p">w400</div>
+                        <div class="w-96 btn-p">w-96</div>
+                        <div class="w-60 btn-p">w-60</div>
+                        <div class="w-32 btn-p">w-32</div>
+
+                        <div class="df">
+                            <div class="w-1/2 btn-p">w-1/2</div>
+                            <div class="w-1/2 btn-p">w-1/2</div>
+                        </div>    
+
+                        <div class="df">
+                            <div class="w-2/5 btn-p">w-2/5</div>
+                            <div class="w-3/5 btn-p">w-3/5</div>
+                        </div>    
+
+                        <div class="df">
+                            <div class="w-1/6 btn-p">w-1/6</div>
+                            <div class="w-5/6 btn-p">w-5/6</div>
+                        </div>
+
+                        <div class="w-full btn-p">w-full</div>
+                    </pre>
+                    </div>
+                </div>
+
+                <div id="heightGuide" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>높이</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>요소를 고정 너비로 ​​설정하려면 h{number}또는 를 사용하세요 . 10px 단위 존재</li>
+                            <li>요소를 고정 너비로 ​​설정하려면 h-{number}또는 를 사용하세요 . rem / 기존 높이 지정 반드시 필요</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+
+                            <div class="dif aie h500">
+                                <div class="h300 p0 btn-p ">
+                                    <div class="rotate-270">h300</div>
+                                </div>
+                            </div>
+                            <div class="dif aie h500">
+                                <div class="h400 p0 btn-p ">
+                                    <div class="rotate-270">h400</div>
+                                </div>
+                            </div>
+                            <div class="dif aie h500">
+                                <div class="h500 p0 btn-p ">
+                                    <div class="rotate-270">h500</div>
+                                </div>
+                            </div>
+
+                            <div class="dif aie h500">
+                                <div class="h-20 p0 btn-p ">
+                                    <div class="rotate-270">h-20</div>
+                                </div>
+                            </div>
+
+                            <div class="dif aie h500">
+                                <div class="h-40 p0 btn-p ">
+                                    <div class="rotate-270">h-40</div>
+                                </div>
+                            </div>
+                            
+                            <div class="dif aie h500">
+                                <div class="h-60 p0 btn-p ">
+                                    <div class="rotate-270 tal">h-60</div>
+                                </div>
+                            </div>
+
+                            <div class="dif aie h500">
+                                <div class="h-full p0 btn-p ">
+                                    <div class="rotate-270 tal">h-full</div>
+                                </div>
+                            </div>
+
+                            <div class="dif aie h500 ffc">
+                                <div class="h-1/2 p0 btn-p mb10">
+                                    <div class="rotate-270 ">h-1/2</div>
+                                </div>
+                                <div class="h-1/2 p0 btn-p ">
+                                    <div class="rotate-270 ">h-1/2</div>
+                                </div>
+                            </div>
+
+                            <div class="dif aie h500 ffc">
+                                <div class="h-1/3 p0 btn-p mb10">
+                                    <div class="rotate-270 ">h-1/2</div>
+                                </div>
+                                <div class="h-2/3 p0 btn-p ">
+                                    <div class="rotate-270 ">h-1/2</div>
+                                </div>
+                            </div>
+
+                            <div class="dif space-y-1 aie h500 ffc ">
+                                <div class="h-1/4 p0 btn-p">
+                                    <div class="rotate-270 ">h-1/2</div>
+                                </div>
+                                <div class="h-3/4 p0 btn-p ">
+                                    <div class="rotate-270 ">h-1/2</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
+                            <div class="h300 btn-p">h300</div>
+
+                            <div class="dif aie ffc">
+                                <div class="h-1/2 btn-p">h-1/2</div>
+                                <div class="h-1/2 btn-p ">h-1/2</div>
+                            </div>   
+
+                        </pre>
+                    </div>
+                </div>
+
+                <!-- //////////////////////////////////// 사이공간 //////////////////////////////////// -->
+
+                <div id="spaceBetween" class="element">
+                    <h2><i class="material-icons-outlined">do_not_disturb_on</i><span>사이 공간</span></h2>
+                    <div class="elements">
+                        <span class="use">Use</span>
+                        <ul class="desc">
+                            <li>유틸리티 를 사용하여 요소 사이의 수직 공간을 제어합니다 space-y-{amount}.</li>
+                            <li>유틸리티를 사용하여 요소 사이의 수평 공간을 제어합니다 space-x-{amount}.</li>
+                            <li>요소를 고정 너비로 ​​설정하려면 h-{number}또는 를 사용하세요 . rem / 기존 높이 지정 반드시 필요</li>
+                        </ul>
+                        <span class="preview">Preview</span>
+                        <p class="gap"></p>
+                        <div>
+                            <div class="df ffc space-y-1">
+                                <div class="btn-p">01</div>
+                                <div class="btn-p">02</div>
+                                <div class="btn-p">03</div>
+                            </div>
+
+                            <br>
+
+                            <div class="df space-x-1">
+                                <div class="btn-p">01</div>
+                                <div class="btn-p">02</div>
+                                <div class="btn-p">03</div>
+                            </div>
+
+                        </div>
+                        <span class="html">Html</span>
+                        <pre name="code" class="brush:xml;">
+
+                            <div class="df ffc space-y-1">
+                                <div class="btn-p">01</div>
+                                <div class="btn-p">02</div>
+                                <div class="btn-p">03</div>
+                            </div>
+
+                            <div class="df aic jcc space-x-1">
+                                <div class="btn-p">01</div>
+                                <div class="btn-p">02</div>
+                                <div class="btn-p">03</div>
+                            </div>
+                        </pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./js/main.js"></script>
+    </body>
+</html>

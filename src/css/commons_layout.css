@@ -71,7 +71,7 @@
 }
 
 .gp_left > ul ul a.active {
-  color: #019945;
+  color: var(--p-clr);
   font-weight: bolder;
 }
 
