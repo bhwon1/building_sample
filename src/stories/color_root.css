@@ -1,0 +1,39 @@
+
+:root{
+  /*** 색상 ***/
+  --p-clr :        #019945;
+  --alert :        #e84a4b;
+  --alert10 :      #fdeded;
+  --black-darker : #001300;
+  --black-dark:    #1a2b1a;
+  --black:         #334233;
+  --black-light:   #4d5a4d;
+  --black-lighter: #667166;
+  --gray-darker:   #808980;
+  --gray-dark:     #99a199;
+  --gray:          #b3b8b3;
+  --gray-light:    #ccd0cc;
+  --gray-lighter:  #e6e7e6;
+  --white:         #ffffff;
+  --gray-white:    #f4f4f4;
+
+  --p-clr-drk10 :#018a3e;
+  --p-clr-drk20 :#017a37;
+  --p-clr-drk30 :#016b30;
+  --p-clr-drk40 :#015c29;
+  --p-clr-drk50 :#014d23;
+  --p-clr-drk60 :#003d1c;
+  --p-clr-drk70 :#002e15;
+  --p-clr-drk80 :#001f0e;
+  --p-clr-drk90 :#000f07;
+
+  --p-clr-lgt10 :#1aa358;
+  --p-clr-lgt20 :#34ad6a;
+  --p-clr-lgt30 :#4db87d;
+  --p-clr-lgt40 :#67c28f;
+  --p-clr-lgt50 :#80cca2;
+  --p-clr-lgt60 :#99d6b5;
+  --p-clr-lgt70 :#b3e0c7;
+  --p-clr-lgt80 :#e6f5ec;
+  --p-clr-lgt90 :#e6f5ec;
+}
