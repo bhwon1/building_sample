@@ -4,7 +4,7 @@
             this.common();
         },
         common() {
-            $(".all-colabds").click(function () {
+            $(".all-colabds").on("click", function () {
                 $(".element").each(function () {
                     $(this).find("h2").children().eq(0).html("add_circle_outlined");
                     $(this).addClass("m0");
@@ -14,7 +14,7 @@
                 });
             });
 
-            $(".all-epd").click(function () {
+            $(".all-epd").on("click", function () {
                 $(".element").each(function () {
                     $(this).find("h2").children().eq(0).html("do_not_disturb_on");
                     $(this).removeClass("m0");
@@ -24,22 +24,24 @@
                 });
             });
 
-            $(".element").on("click", "h2 span", function () {
-                let ele = $(this).closest(".element").find("h2").children().eq(1);
-                let eles = $(this).closest(".element").find(".elements");
+            $(".element")
+                .off("click")
+                .on("click", "h2 span", function () {
+                    let ele = $(this).closest(".element").find("h2").children().eq(1);
+                    let eles = $(this).closest(".element").find(".elements");
 
-                ele.toggleClass("on");
+                    ele.toggleClass("on");
 
-                if (ele.hasClass("on")) {
-                    ele.siblings("i").html("add_circle_outlined");
-                    ele.parents(".element").addClass("m0");
-                    eles.addClass("dn");
-                } else {
-                    ele.siblings("i").html("do_not_disturb_on");
-                    ele.parents(".element").removeClass("m0");
-                    eles.removeClass("dn");
-                }
-            });
+                    if (ele.hasClass("on")) {
+                        ele.siblings("i").html("add_circle_outlined");
+                        ele.parents(".element").addClass("m0");
+                        eles.addClass("dn");
+                    } else {
+                        ele.siblings("i").html("do_not_disturb_on");
+                        ele.parents(".element").removeClass("m0");
+                        eles.removeClass("dn");
+                    }
+                });
 
             $(".gp_left").on("click", function (e) {
                 let target = e.target;

@@ -4,10 +4,11 @@
     "description": "",
     "main": "main.js",
     "scripts": {
-        "build:css": "postcss css/commons.css -o dist/commons.min.css",
+        "build:css": "postcss src/css/commons.css -o ./dist/commons.min.css",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "webpack --mode development",
-        "start": "webpack-dev-server --mode development --open",
+        "start": "webpack --mode development",
+        "build": "webpack --mode production",
+        "dev": "webpack-dev-server --mode development --open",
         "storybook": "storybook dev -p 6006",
         "build-storybook": "storybook build"
     },
@@ -25,6 +26,7 @@
         "html-webpack-plugin": "^5.5.3",
         "postcss": "^8.4.31",
         "postcss-custom-properties": "^13.3.2",
+        "postcss-import": "^15.1.0",
         "postcss-loader": "^7.3.3",
         "postcss-preset-env": "^9.3.0",
         "postcss-short": "^5.0.0",
@@ -36,6 +38,8 @@
         "webpack-dev-server": "^4.15.1"
     },
     "dependencies": {
-        "autoprefixer": "^10.4.16"
+        "autoprefixer": "^10.4.16",
+        "jquery": "^3.7.1",
+        "jquery-ui": "^1.13.2"
     }
 }

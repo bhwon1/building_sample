@@ -3,6 +3,10 @@
 @import url(./commons_layout.css);
 @import url(./jquery-ui.css);
 @import url(./ui-datepicker.css);
+@import 'reset.css';
+@import 'commons_layout.css';
+@import 'jquery-ui.css';
+@import 'ui-datepicker.css';
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
